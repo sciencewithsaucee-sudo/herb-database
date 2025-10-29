@@ -135,3 +135,6 @@ This open-source project was developed by **Dr. Sparsh Varshney** to contribute 
 
 > “To create the world’s first open Ayurvedic data ecosystem —
 > empowering research, startups, and education through open knowledge.”
+
+## License
+This dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
