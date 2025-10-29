@@ -54,7 +54,7 @@ This dataset is suitable for:
 2. **API Example**
 
    ```
-   https://amidhayurveda.com/api/herbs.json
+   https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/refs/heads/main/herb.json
    ```
 
 3. **Integrate with Projects**
