@@ -49,7 +49,7 @@ This dataset is suitable for:
 ## ⚙️ How to Use
 
 1. **Access the dataset**
-   You can use the raw JSON files directly from GitHub or integrate them via API endpoints hosted at [Amidha Ayurveda](https://amidhayurveda.com/p/herb-database.html).
+   You can use the raw JSON files directly from GitHub or integrate them via API endpoints hosted at [Amidha Ayurveda](https://amidhaayurveda.com/p/herb-database.html).
 
 2. **API Example**
 
@@ -90,7 +90,7 @@ Under the following terms:
 **How to Cite:**
 
 > Amidha Ayurveda Herb Database (Beta), 2025. Open-source dataset for Ayurvedic research.
-> Retrieved from [https://amidhayurveda.com/p/herb-database.html](https://amidhayurveda.com/p/herb-database.html)
+> Retrieved from [https://amidhaayurveda.com/p/herb-database.html](https://amidhaayurveda.com/p/herb-database.html)
 
 ---
 
@@ -125,9 +125,9 @@ This open-source project was developed by **Dr. Sparsh Varshney** to contribute 
 
 **Connect:**
 
-* 🌐 [Amidha Ayurveda Website](https://amidhayurveda.com)
+* 🌐 [Amidha Ayurveda Website](https://amidhaayurveda.com)
 * 💼 [LinkedIn](https://linkedin.com/in/sparshvarshney)
-* 📄 [About Page](https://amidhayurveda.com/p/about.html)
+* 📄 [About Page](https://amidhaayurveda.com/p/about.html)
 
 ---
 
