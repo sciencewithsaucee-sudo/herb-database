@@ -1,5 +1,7 @@
 # 🌿 Amidha Ayurveda – Open Herb Database (Beta)
 
+[![DOI](https://zenodo.org/badge/1085515020.svg)](https://doi.org/10.5281/zenodo.17475352)
+
 **An open-source Ayurvedic herb dataset** for research, education, and innovation.
 This project aims to make authentic Ayurvedic knowledge accessible in a structured, machine-readable format — connecting traditional wisdom with modern data science.
 
@@ -24,7 +26,7 @@ This dataset is suitable for:
 
 ---
 
-## 💮 Sample Data Preview (JSON)
+## 🛉 Sample Data Preview (JSON)
 
 ```json
 [
@@ -49,7 +51,7 @@ This dataset is suitable for:
 ## ⚙️ How to Use
 
 1. **Access the dataset**
-   You can use the raw JSON files directly from GitHub or integrate them via API endpoints hosted at [Amidha Ayurveda](https://amidhaayurveda.com/p/herb-database.html).
+   Use the raw JSON files directly from GitHub or integrate them via API endpoints hosted at [Amidha Ayurveda](https://amidhaayurveda.com/p/herb-database.html).
 
 2. **API Example**
 
@@ -73,7 +75,7 @@ This project bridges **Ayurvedic textual data** with **digital knowledge systems
 
 ---
 
-## 🧾 License & Citation
+## 🗳️ License & Citation
 
 This dataset is released under the **Creative Commons Attribution 4.0 International License (CC BY 4.0).**
 
@@ -90,11 +92,12 @@ Under the following terms:
 **How to Cite:**
 
 > Amidha Ayurveda Herb Database (Beta), 2025. Open-source dataset for Ayurvedic research.
+> DOI: [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
 > Retrieved from [https://amidhaayurveda.com/p/herb-database.html](https://amidhaayurveda.com/p/herb-database.html)
 
 ---
 
-## 🧹 Contributing
+## 🪟 Contributing
 
 We welcome contributions from students, developers, and researchers!
 You can:
@@ -113,9 +116,9 @@ You can:
 
 ## 🔗 DOI (Digital Object Identifier)
 
-A Zenodo DOI will be generated soon for official academic referencing.
-*(Example placeholder)*
-**DOI:** [10.5281/zenodo.1234567](https://zenodo.org/)
+**DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
+
+<a href="https://doi.org/10.5281/zenodo.17475352"><img src="https://zenodo.org/badge/1085515020.svg" alt="DOI"></a>
 
 ---
 
@@ -136,5 +139,8 @@ This open-source project was developed by **Dr. Sparsh Varshney** to contribute 
 > “To create the world’s first open Ayurvedic data ecosystem —
 > empowering research, startups, and education through open knowledge.”
 
+---
+
 ## License
+
 This dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
