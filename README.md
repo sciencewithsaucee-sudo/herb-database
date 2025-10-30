@@ -1,7 +1,5 @@
 # 🌿 Amidha Ayurveda – Open Herb Database (Beta)
 
-[![DOI](https://zenodo.org/badge/1085515020.svg)](https://doi.org/10.5281/zenodo.17475352)
-
 **An open-source Ayurvedic herb dataset** for research, education, and innovation.
 This project aims to make authentic Ayurvedic knowledge accessible in a structured, machine-readable format — connecting traditional wisdom with modern data science.
 
