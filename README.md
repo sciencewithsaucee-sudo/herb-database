@@ -116,8 +116,6 @@ You can:
 
 **DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
 
-<a href="https://doi.org/10.5281/zenodo.17475352"><img src="https://zenodo.org/badge/1085515020.svg" alt="DOI"></a>
-
 ---
 
 ## 👨‍⚕️ About the Creator
