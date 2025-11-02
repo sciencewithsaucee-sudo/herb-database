@@ -9,7 +9,8 @@ Thank you for your interest in contributing to the **Amidha Ayurveda Open Herb D
 **Repository:** [Amidha Ayurveda – Open Herb Database (Beta)](https://github.com/sciencewithsaucee-sudo/herb-database)
 **DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
 **Author:** Sparsh Varshney
-**License:** MIT License
+**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
 
 This project provides structured data on Ayurvedic herbs in JSON format. Each herb entry includes modern scientific details, Ayurvedic references, and usability for both academic and clinical contexts.
 
@@ -79,18 +80,19 @@ You can:
 ## 🔍 Data Format Example
 
 ```json
-{
-  "herb_name_sanskrit": "Ashwagandha",
-  "herb_name_latin": "Withania somnifera",
-  "rasa": ["Madhura", "Tikta"],
-  "guna": ["Laghu", "Snigdha"],
-  "virya": "Ushna",
-  "vipaka": "Madhura",
-  "karma": ["Balya", "Rasayana", "Vatahara"],
-  "part_used": ["Root"],
-  "modern_research": "Adaptogenic, reduces stress, improves muscle strength",
-  "source_reference": "Bhavaprakasha Nighantu – Haritakyadi Varga"
-}
+  {
+    "name": "Ashwagandha",
+    "link": "/p/ashwagandha.html",
+    "preview": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
+    "pacify": ["Vata", "Kapha"],
+    "aggravate": ["Pitta"],
+    "tridosha": false,
+    "rasa": ["Tikta", "Kashaya"],
+    "guna": ["Guru", "Snigdha"],
+    "virya": "Ushna",
+    "vipaka": "Madhura",
+    "prabhav": ["Balya", "Medhya", "Vrishya", "rasayan"]
+  }
 ```
 
 ---
@@ -106,16 +108,20 @@ You can:
 
 ## 🧾 Citation
 
-If you use this database in your research, please cite it as:
+If you use this database in your research, please cite the specific version you used. You can find the correct BibTeX and other formats on the [Zenodo DOI record](https://doi.org/10.5281/zenodo.17475352).
+
+The recommended citation for the **Beta (v1.0)** version is:
 
 ```bibtex
-@misc{Varshney_Amidha_Ayurveda_2025,
-  author = {Varshney, Sparsh},
-  doi = {10.5281/zenodo.17475352},
-  month = nov,
-  title = {{Amidha Ayurveda – Open Herb Database (Beta)}},
-  url = {https://github.com/sciencewithsaucee-sudo/herb-database},
-  year = {2025}
+@dataset{varshney_sparsh_2025_17475352,
+  author       = {Varshney, Sparsh},
+  title        = {{Amidha Ayurveda – Open Herb Database (Beta)}},
+  month        = nov,
+  year         = 2025,
+  publisher    = {Zenodo},
+  version      = {1.0.0-beta},
+  doi          = {10.5281/zenodo.17475352},
+  url          = {[https://doi.org/10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)}
 }
 ```
 
@@ -137,8 +143,7 @@ This project follows the **Contributor Covenant Code of Conduct**. Please be res
 
 * 🌐 Website: [Amidha Ayurveda](https://amidhaayurveda.com)
 * 🧵 GitHub Discussions: Use the Discussions tab for Q&A
-* ✉️ Contact: [amidhaayurveda@gmail.com](mailto:amidhaayurveda@gmail.com)
-
+* ✉️ Contact: For bugs, please [open an Issue](https://github.com/sciencewithsaucee-sudo/herb-database/issues). For questions, please [start a Discussion](https://github.com/sciencewithsaucee-sudo/herb-database/discussions).
 ---
 
 **Together, let’s digitize Ayurveda for the future.** 🙌
