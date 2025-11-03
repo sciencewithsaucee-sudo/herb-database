@@ -59,10 +59,6 @@ This dataset is suitable for:
    Use this data for web apps, AI models, educational tools, or research visualizations.  
    Please provide attribution as mentioned below.
 
-3. **Integrate with Projects**
-   Use the data for web apps, AI models, educational tools, or research visualizations.
-   Make sure to provide attribution as mentioned below.
-
 ---
 
 ## 🧠 Research Purpose
