@@ -48,14 +48,16 @@ This dataset is suitable for:
 
 ## ⚙️ How to Use
 
-1. **Access the dataset**
-   Use the raw JSON files directly from GitHub or integrate them via API endpoints hosted at [Amidha Ayurveda](https://amidhaayurveda.com/p/herb-database.html).
+1. **Access the Raw Data**  
+   You can access the complete, raw JSON file directly from this GitHub repository.  
+   This is ideal for downloading the entire dataset for your own projects or for data analysis.
 
-2. **API Example**
+   **Raw JSON URL:**  
+   [https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json](https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json)
 
-   ```
-   https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/refs/heads/main/herb.json
-   ```
+2. **Integrate with Projects**  
+   Use this data for web apps, AI models, educational tools, or research visualizations.  
+   Please provide attribution as mentioned below.
 
 3. **Integrate with Projects**
    Use the data for web apps, AI models, educational tools, or research visualizations.
