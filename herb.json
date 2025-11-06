@@ -1,7 +1,7 @@
 [
  {
 "name": "Tulsi",
-    "link": "/p/tulsi.html",
+    "link": "https://www.amidhaayurveda.com/p/tulsi.html",
     "preview": "Tulsi (Ocimum sanctum) is known as the 'Queen of Herbs' in Ayurveda. It boosts immunity, combats respiratory disorders, and has adaptogenic properties.",
     "pacify": ["Kapha", "Vata"],
     "aggravate": ["Pitta"],
@@ -14,7 +14,7 @@
   },
   {
 "name": "Amla",
-    "link": "/p/amla.html",
+    "link": "https://www.amidhaayurveda.com/p/amla.html",
     "preview": "Amla (Emblica officinalis) is a potent source of Vitamin C. It rejuvenates tissues, improves digestion, eyesight, and balances all three doshas.",
     "pacify": ["tridosha"],
     "aggravate": [],
@@ -27,7 +27,7 @@
   },
   {
 "name": "Ashwagandha",
-    "link": "/p/ashwagandha.html",
+    "link": "https://www.amidhaayurveda.com/p/ashwagandha.html",
     "preview": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
     "pacify": ["Vata", "Kapha"],
     "aggravate": ["Pitta"],
@@ -40,7 +40,7 @@
   },
   {
 "name": "Giloy",
-    "link": "/p/giloy.html",
+    "link": "https://www.amidhaayurveda.com/p/giloy.html",
     "preview": "Giloy (Tinospora cordifolia) is a powerful immunity booster. It acts as an antipyretic, detoxifier, and rejuvenator with anti-inflammatory effects.",
     "pacify": ["tridosha"],
     "aggravate": [],
@@ -53,7 +53,7 @@
   },
   {
 "name": "Shatavari",
-    "link": "/p/shatavari.html",
+    "link": "https://www.amidhaayurveda.com/p/shatavari.html",
     "preview": "Shatavari (Asparagus racemosus) supports female reproductive health, boosts vitality, and is a top Ayurvedic rejuvenator for Pitta and Vata.",
     "pacify": ["Vata", "Pitta"],
     "aggravate": ["Kapha"],
@@ -66,7 +66,7 @@
   },
    {
 "name": "Nagarmotha",
-    "link": "/p/nagarmotha.html",
+    "link": "https://www.amidhaayurveda.com/p/nagarmotha.html",
     "preview": "Used to treat indigestion, fever, and obesity through its deepana and pachana actions.",
     "pacify": ["Kapha", "Pitta"],
     "aggravate": ["Vata"],
@@ -79,7 +79,7 @@
   },
   {
 "name": "Agnimantha",
-    "link": "/p/agnimantha.html",
+    "link": "https://www.amidhaayurveda.com/p/agnimantha.html",
     "preview": "Part of Dashamoola, used in vata disorders and for promoting digestion.",
     "pacify": ["Vata"],
     "aggravate": ["Pitta"],
@@ -92,7 +92,7 @@
   },
   {
 "name": "Rohitaka",
-    "link": "/p/rohitaka.html",
+    "link": "https://www.amidhaayurveda.com/p/rohitaka.html",
     "preview": "Used for treating liver disorders, ascites, and splenomegaly.",
     "pacify": ["Pitta", "Kapha"],
     "aggravate": ["Vata"],
