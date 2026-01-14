@@ -48,26 +48,23 @@ This dataset is suitable for:
 
 ## ⚙️ How to Use
 
-1. **Access the Raw Data**  
-   You can access the complete, raw JSON file directly from this GitHub repository.  
+1. **Access the Raw Data** You can access the complete, raw JSON file directly from our GitHub repository.  
    This is ideal for downloading the entire dataset for your own projects or for data analysis.
 
-   **Raw JSON URL:**  
-   [https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json](https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json)
+   **Raw JSON URL:** [https://raw.githubusercontent.com/sciencewithsaucee-sudo/Bhaishajya-Kalpana-Kosha/refs/heads/main/Bhaishajya-Kalpana-Kosha.json](https://raw.githubusercontent.com/sciencewithsaucee-sudo/Bhaishajya-Kalpana-Kosha/refs/heads/main/Bhaishajya-Kalpana-Kosha.json)
 
-2. **Integrate with Projects**  
-   Use this data for web apps, AI models, educational tools, or research visualizations.  
+2. **Integrate with Projects** Use this data for web apps, AI models, educational tools, or research visualizations.  
    Please provide attribution as mentioned below.
 
 ---
 
 ## 🧠 Research Purpose
 
-This project bridges **Ayurvedic textual data** with **digital knowledge systems**, helping:
+This project bridges **classical Ayurvedic texts** with **digital knowledge systems**, helping:
 
-* Students cite authentic herb data
-* Researchers perform computational Ayurveda studies
-* Developers build Ayurvedic APIs and tools
+* Students cite authentic formulation data
+* Researchers perform computational analysis on ingredients and indications
+* Developers build standardized Ayurvedic prescription tools
 
 ---
 
@@ -87,9 +84,8 @@ Under the following terms:
 
 **How to Cite:**
 
-> Amidha Ayurveda Herb Database (Beta), 2025. Open-source dataset for Ayurvedic research.
-> DOI: [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
-> Retrieved from [https://amidhaayurveda.com/p/herb-database.html](https://amidhaayurveda.com/p/herb-database.html)
+> Bhaishajya Kalpana Kosha (Beta), 2025. Amidha Ayurveda.
+> Retrieved from [https://www.amidhaayurveda.com/p/bhaishajya-kalpana-kosha.html](https://www.amidhaayurveda.com/p/bhaishajya-kalpana-kosha.html)
 
 ---
 
@@ -98,27 +94,21 @@ Under the following terms:
 We welcome contributions from students, developers, and researchers!
 You can:
 
-* Add new verified herbs
-* Improve descriptions or references
+* Add new verified formulations
+* Improve ingredient lists or references
 * Enhance data accuracy
 
 ### Steps:
 
-1. Fork this repository
-2. Edit or add your herb entry in JSON format
+1. Fork the repository
+2. Edit or add your formulation entry in JSON format
 3. Submit a pull request
-
----
-
-## 🔗 DOI (Digital Object Identifier)
-
-**DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
 
 ---
 
 ## 👨‍⚕️ About the Creator
 
-This open-source project was developed by **Sparsh Varshney** to contribute to the accessibility and understanding of Ayurvedic knowledge in the digital era.
+This open-source project was developed by **Dr. Sparsh Varshney** to contribute to the accessibility and understanding of Ayurvedic knowledge, complementing the Ayurvedic Herb Database.
 
 **Connect:**
 
