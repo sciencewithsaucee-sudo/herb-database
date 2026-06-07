@@ -1,26 +1,53 @@
-# 🌿 Amidha Ayurveda – Open Herb Database (Beta)
+# 🌿 Amidha Ayurveda Herb Database v2.0
 
-**An open-source Ayurvedic herb dataset** for research, education, and innovation.
-This project aims to make authentic Ayurvedic knowledge accessible in a structured, machine-readable format — connecting traditional wisdom with modern data science.
+**An open-source, citable dataset of Ayurvedic medicinal plants for research, education, and digital innovation.**
+
+The Amidha Ayurveda Herb Database aims to make authentic Ayurvedic knowledge accessible in a structured, machine-readable format, bridging traditional wisdom with modern data science, computational research, and AI applications.
 
 ---
 
 ## 📖 Overview
 
-The **Amidha Ayurveda Herb Database** contains detailed data on 700+ Ayurvedic herbs, including:
+The **Amidha Ayurveda Herb Database v2.0** contains a curated collection of **360 unique Ayurvedic medicinal plants** with standardized botanical and Ayurvedic metadata.
 
-* **Botanical names** and Ayurvedic names
-* **Rasa, Guna, Virya, Vipaka, Prabhava**
-* **Dosha effects** (Pacify / Aggravate)
-* **Therapeutic properties** and brief description
-* **HTML links** for individual herb pages
+Version 2.0 introduces significant improvements in data quality, structure, and consistency by consolidating duplicate records, removing formulation entries, and standardizing herb information into canonical plant records.
+
+### Dataset Includes
+
+* Botanical names
+* English names
+* Plant family classification
+* Sanskrit synonyms
+* Parts used
+* Main Ayurvedic indications
+* Rasa (Taste)
+* Guna (Qualities)
+* Virya (Potency)
+* Vipaka (Post-digestive effect)
+* Prabhava (Specific action)
+* Dosha effects (Pacify / Aggravate)
+* Herb descriptions
+* Links to detailed herb pages
 
 This dataset is suitable for:
 
-* Ayurvedic students & researchers
+* Ayurvedic students and researchers
 * Health-tech startups and AI developers
-* Web & app builders using Ayurvedic knowledge
-* Educators creating open educational content
+* Web and app builders
+* Open-data initiatives
+* Computational Ayurveda research
+* Educational content creation
+
+---
+
+## 📊 Dataset Statistics
+
+| Metric                  | Count     |
+| ----------------------- | --------- |
+| Unique Medicinal Plants | 360       |
+| Data Format             | JSON      |
+| License                 | CC BY 4.0 |
+| Version                 | 2.0.0     |
 
 ---
 
@@ -28,46 +55,149 @@ This dataset is suitable for:
 
 ```json
 [
-  {
-    "name": "Ashwagandha",
-    "link": "/p/ashwagandha.html",
-    "preview": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
-    "pacify": ["Vata", "Kapha"],
-    "aggravate": ["Pitta"],
-    "tridosha": false,
-    "rasa": ["Tikta", "Kashaya"],
-    "guna": ["Guru", "Snigdha"],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "prabhav": ["Balya", "Medhya", "Vrishya", "Rasayan"]
-  }
+  {
+    "name": "Tulsi",
+    "botanical_name": "Ocimum sanctum",
+    "family": "Lamiaceae",
+    "english_name": "Holy Basil",
+    "sanskrit_synonyms": [
+      "Surasa",
+      "Apetarakshasi",
+      "Bhuteshta",
+      "Gauri"
+    ],
+    "part_used": [
+      "Patra",
+      "Pushpa",
+      "Moola",
+      "Bija"
+    ],
+    "main_indications": [
+      "Kasa",
+      "Shwasa",
+      "Jwara",
+      "Hikka"
+    ],
+    "image": "",
+    "link": "https://www.amidhaayurveda.com/p/tulsi.html",
+    "preview": "Tulsi (Ocimum sanctum) is known as the Queen of Herbs in Ayurveda. It boosts immunity, combats respiratory disorders, and possesses adaptogenic properties.",
+    "pacify": [
+      "Kapha",
+      "Vata"
+    ],
+    "aggravate": [
+      "Pitta"
+    ],
+    "tridosha": false,
+    "rasa": [
+      "Katu",
+      "Tikta"
+    ],
+    "guna": [
+      "Laghu",
+      "Ruksha"
+    ],
+    "virya": "Ushna",
+    "vipaka": "Katu",
+    "prabhav": [
+      "Rasayana",
+      "Krimighna",
+      "Kasahara",
+      "Shoolaghna"
+    ]
+  }
 ]
 ```
 
 ---
 
+## 🧬 Dataset Schema
+
+| Field             | Type    | Description                   |
+| ----------------- | ------- | ----------------------------- |
+| name              | string  | Herb name                     |
+| botanical_name    | string  | Scientific botanical name     |
+| family            | string  | Botanical family              |
+| english_name      | string  | Common English name           |
+| sanskrit_synonyms | array   | Sanskrit names and synonyms   |
+| part_used         | array   | Medicinal parts used          |
+| main_indications  | array   | Primary Ayurvedic indications |
+| image             | string  | Image URL                     |
+| link              | string  | Herb page URL                 |
+| preview           | string  | Short description             |
+| pacify            | array   | Doshas pacified               |
+| aggravate         | array   | Doshas aggravated             |
+| tridosha          | boolean | Tridoshic classification      |
+| rasa              | array   | Taste                         |
+| guna              | array   | Qualities                     |
+| virya             | string  | Potency                       |
+| vipaka            | string  | Post-digestive effect         |
+| prabhav           | array   | Specific actions              |
+
+---
+
 ## ⚙️ How to Use
 
-1. **Access the Raw Data**  
-   You can access the complete, raw JSON file directly from this GitHub repository.  
-   This is ideal for downloading the entire dataset for your own projects or for data analysis.
+### Access the Raw Dataset
 
-   **Raw JSON URL:**  
-   [https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json](https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json)
+The complete JSON dataset can be accessed directly from this repository:
 
-2. **Integrate with Projects**  
-   Use this data for web apps, AI models, educational tools, or research visualizations.  
-   Please provide attribution as mentioned below.
+**Raw JSON URL**
+
+https://raw.githubusercontent.com/sciencewithsaucee-sudo/herb-database/main/herb.json
+
+### Integrate Into Projects
+
+You may use the dataset for:
+
+* Web applications
+* Mobile applications
+* Research projects
+* Educational tools
+* AI and machine learning projects
+* Data visualizations
+* Ayurveda informatics systems
+
+Please provide proper attribution when using the dataset.
 
 ---
 
 ## 🧠 Research Purpose
 
-This project bridges **Ayurvedic textual data** with **digital knowledge systems**, helping:
+This project bridges traditional Ayurvedic knowledge and digital knowledge systems, enabling:
 
-* Students cite authentic herb data
-* Researchers perform computational Ayurveda studies
-* Developers build Ayurvedic APIs and tools
+* Computational Ayurveda research
+* Educational resource development
+* AI-assisted Ayurveda applications
+* Open scientific collaboration
+* Structured Ayurvedic data analysis
+
+The long-term vision is to contribute toward an open Ayurvedic data ecosystem that supports education, innovation, and research worldwide.
+
+---
+
+## 🔄 Version History
+
+### Version 2.0.0 (Current)
+
+Major improvements include:
+
+* Added botanical classification
+* Added English names
+* Added Sanskrit synonyms
+* Added medicinal parts used
+* Added main indications
+* Standardized herb records
+* Improved metadata quality
+* Consolidated duplicate entries
+* Removed formulation records
+* Removed herb-part duplicate records
+
+### Version 1.0.0 (Beta)
+
+* Initial public release
+* 700+ mixed herb records
+* Core Ayurvedic pharmacological properties
 
 ---
 
@@ -77,64 +207,73 @@ This dataset is released under the **Creative Commons Attribution 4.0 Internatio
 
 You are free to:
 
-* **Share** — copy and redistribute the material
-* **Adapt** — remix, transform, and build upon it
+* Share — copy and redistribute the material
+* Adapt — remix, transform, and build upon it
 
 Under the following terms:
 
-* Attribution must be given to **Amidha Ayurveda**
-* Non-commercial, educational, and research use is preferred
+* Appropriate attribution must be provided
+* Indicate if changes were made
+* Link to the license
 
-**How to Cite:**
+### Citation
 
-> Amidha Ayurveda Herb Database (Beta), 2025. Open-source dataset for Ayurvedic research.
-> DOI: [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
-> Retrieved from [https://amidhaayurveda.com/p/herb-database.html](https://amidhaayurveda.com/p/herb-database.html)
+> Varshney, S. (2026). Amidha Ayurveda Herb Database v2.0. Open-source dataset of Ayurvedic medicinal plants. Zenodo. DOI: 10.5281/zenodo.17475352
+
+Dataset Website:
+
+https://www.amidhaayurveda.com/p/herb-database.html
 
 ---
 
 ## 🪟 Contributing
 
-We welcome contributions from students, developers, and researchers!
-You can:
+Contributions are welcome from students, researchers, developers, and Ayurveda enthusiasts.
 
-* Add new verified herbs
-* Improve descriptions or references
-* Enhance data accuracy
+You can help by:
 
-### Steps:
+* Improving data quality
+* Reporting issues
+* Suggesting corrections
+* Enhancing documentation
+* Developing tools that use the dataset
+
+### Steps
 
 1. Fork this repository
-2. Edit or add your herb entry in JSON format
+2. Make your improvements
 3. Submit a pull request
 
 ---
 
-## 🔗 DOI (Digital Object Identifier)
+## 🔗 DOI
 
-**DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
+**DOI:** https://doi.org/10.5281/zenodo.17475352
 
 ---
 
 ## 👨‍⚕️ About the Creator
 
-This open-source project was developed by **Sparsh Varshney** to contribute to the accessibility and understanding of Ayurvedic knowledge in the digital era.
+This open-source project was developed by **Sparsh Varshney** to improve the accessibility, interoperability, and digital preservation of Ayurvedic knowledge.
 
-**Connect:**
+### Connect
 
-* 🌐 [Amidha Ayurveda Website](https://amidhaayurveda.com)
-* 💼 [LinkedIn](https://linkedin.com/in/sparshvarshney)
-* 📄 [About Page](https://amidhaayurveda.com/p/about.html)
+🌐 https://www.amidhaayurveda.com
+
+💼 https://linkedin.com/in/sparshvarshney
+
+📄 https://www.amidhaayurveda.com/p/about.html
 
 ---
 
-### 💚 Vision
+## 💚 Vision
 
-> “To create the world’s first open Ayurvedic data ecosystem —
-> empowering research, startups, and education through open knowledge.”
+> "To create the world's first open Ayurvedic data ecosystem, empowering research, education, and innovation through structured open knowledge."
 
 ---
 
 ## License
 
-This dataset is released under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+This dataset is released under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
+https://creativecommons.org/licenses/by/4.0/
