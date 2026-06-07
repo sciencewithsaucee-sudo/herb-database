@@ -1,149 +1,233 @@
-# 🌿 Contributing to Amidha Ayurveda – Open Herb Database (Beta)
+# 🌿 Contributing to the Amidha Ayurveda Herb Database
 
-Thank you for your interest in contributing to the **Amidha Ayurveda Open Herb Database** project! 🙏 This is an open, community-driven effort to digitize and organize Ayurvedic herbal knowledge for researchers, practitioners, and developers.
+Thank you for your interest in contributing to the **Amidha Ayurveda Herb Database**! 🙏
+
+This project is an open, community-driven effort to structure, preserve, and expand Ayurvedic medicinal plant knowledge in a machine-readable format for research, education, and digital innovation.
 
 ---
 
 ## 🧭 Project Overview
 
-**Repository:** [Amidha Ayurveda – Open Herb Database (Beta)](https://github.com/sciencewithsaucee-sudo/herb-database)
-**DOI:** [10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)
+**Repository:** https://github.com/sciencewithsaucee-sudo/herb-database
+
+**Current Version:** 2.0.0
+
+**Version DOI:** https://doi.org/10.5281/zenodo.20581467
+
+**Concept DOI (All Versions):** https://doi.org/10.5281/zenodo.17475351
+
 **Author:** Sparsh Varshney
-**License:** [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
 
+**License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
 
-This project provides structured data on Ayurvedic herbs in JSON format. Each herb entry includes modern scientific details, Ayurvedic references, and usability for both academic and clinical contexts.
+The database currently contains a curated collection of **360 Ayurvedic medicinal plants** with standardized botanical and Ayurvedic metadata.
 
 ---
 
-## 🧩 How You Can Contribute
+## 🧩 Ways to Contribute
 
-Contributions are welcome from students, scholars, developers, and Ayurveda enthusiasts! Here’s how you can help:
+Contributions are welcome from students, researchers, practitioners, developers, and open-data enthusiasts.
 
-### 1. 🪴 Add or Improve Herb Data
-
-* Add new herbs with proper classical references and verified modern information.
-* Improve existing entries (spelling, classification, new research data).
-* Suggest structural improvements in the JSON schema.
-
-### 2. 🧠 Suggest Features
-
-Help improve the project scope by proposing new ideas such as:
-
-* Filters (e.g., Rasa, Guna, Virya, Karma)
-* Search and sort algorithms for front-end
-* Integration with AI tools like **ShlokaAI** for Sanskrit–English translations or Ayurvedic inference
-* Cross-linking with diseases, formulations, and research papers
-
-### 3. 💻 Improve Documentation
+### 🌿 Improve Herb Data
 
 You can:
 
-* Fix typos or grammar
-* Add missing explanations in README
-* Write tutorials or usage examples for others
+* Add missing information
+* Correct botanical classifications
+* Improve Sanskrit synonym lists
+* Enhance herb descriptions
+* Improve indication mapping
+* Suggest schema improvements
 
-### 4. 🧪 Testing & Validation
+### 📚 Improve References
 
-* Verify data accuracy using authoritative Ayurvedic texts
-* Report inconsistencies via GitHub Issues
-* Suggest standardization (e.g., reference codes for Nighantus or texts)
+Help verify information using authoritative sources such as:
+
+* Charaka Samhita
+* Sushruta Samhita
+* Ashtanga Hridaya
+* Bhavaprakasha Nighantu
+* Dhanvantari Nighantu
+* Raja Nighantu
+* Peer-reviewed scientific literature
+
+### 💻 Improve Documentation
+
+Contributors can:
+
+* Fix typos and formatting
+* Improve README documentation
+* Add examples and tutorials
+* Improve citation guidance
+
+### 🔬 Data Validation
+
+Help ensure:
+
+* Data consistency
+* Botanical accuracy
+* Sanskrit spelling accuracy
+* Standardized terminology
+* Schema compliance
 
 ---
 
 ## ⚙️ Contribution Workflow
 
-1. **Fork** this repository
-2. **Clone** your fork
+### 1. Fork the Repository
 
-   ```bash
-   git clone https://github.com/your-username/herb-database.git
-   ```
-3. **Create a new branch**
-
-   ```bash
-   git checkout -b feature/new-herb
-   ```
-4. **Make your changes** (edit JSON files, documentation, etc.)
-5. **Commit and push**
-
-   ```bash
-   git commit -m "Added data for [Herb Name]"
-   git push origin feature/new-herb
-   ```
-6. **Create a Pull Request** on GitHub
-
-> 📘 Please ensure your data sources are properly cited. Ayurvedic classical texts (Charaka, Sushruta, Bhavaprakasha, etc.) and modern references (PubMed, NCBI) are welcome.
-
----
-
-## 🔍 Data Format Example
-
-```json
-  {
-    "name": "Ashwagandha",
-    "link": "/p/ashwagandha.html",
-    "preview": "Ashwagandha (Withania somnifera) is a powerful adaptogen. It reduces stress, increases strength, and supports reproductive and nervous systems.",
-    "pacify": ["Vata", "Kapha"],
-    "aggravate": ["Pitta"],
-    "tridosha": false,
-    "rasa": ["Tikta", "Kashaya"],
-    "guna": ["Guru", "Snigdha"],
-    "virya": "Ushna",
-    "vipaka": "Madhura",
-    "prabhav": ["Balya", "Medhya", "Vrishya", "rasayan"]
-  }
+```bash
+git clone https://github.com/your-username/herb-database.git
 ```
 
+### 2. Create a Branch
+
+```bash
+git checkout -b feature/improvement-name
+```
+
+### 3. Make Changes
+
+Update:
+
+* herb.json
+* documentation
+* metadata
+* references
+
+### 4. Commit Changes
+
+```bash
+git commit -m "Improve Tulsi metadata"
+```
+
+### 5. Push Changes
+
+```bash
+git push origin feature/improvement-name
+```
+
+### 6. Open a Pull Request
+
+Describe:
+
+* What was changed
+* Why the change was necessary
+* Sources used for verification
+
 ---
 
-## 🪷 Guidelines
+## 🧬 Current Data Schema
 
-* Maintain **accuracy** and **authenticity**.
-* Use **IAST transliteration** for Sanskrit terms.
-* Respect **open-data ethics** — do not plagiarize or scrape copyrighted sources.
-* Each herb must have at least **one classical reference**.
+Example herb record:
 
----
-
-## 🧾 Citation
-
-If you use this database in your research, please cite the specific version you used. You can find the correct BibTeX and other formats on the [Zenodo DOI record](https://doi.org/10.5281/zenodo.17475352).
-
-The recommended citation for the **Beta (v1.0)** version is:
-
-```bibtex
-@dataset{varshney_sparsh_2025_17475352,
-  author       = {Varshney, Sparsh},
-  title        = {{Amidha Ayurveda – Open Herb Database (Beta)}},
-  month        = nov,
-  year         = 2025,
-  publisher    = {Zenodo},
-  version      = {1.0.0-beta},
-  doi          = {10.5281/zenodo.17475352},
-  url          = {[https://doi.org/10.5281/zenodo.17475352](https://doi.org/10.5281/zenodo.17475352)}
+```json
+{
+  "name": "Tulsi",
+  "botanical_name": "Ocimum sanctum",
+  "family": "Lamiaceae",
+  "english_name": "Holy Basil",
+  "sanskrit_synonyms": [
+    "Surasa",
+    "Apetarakshasi",
+    "Bhuteshta",
+    "Gauri"
+  ],
+  "part_used": [
+    "Patra",
+    "Pushpa",
+    "Moola",
+    "Bija"
+  ],
+  "main_indications": [
+    "Kasa",
+    "Shwasa",
+    "Jwara",
+    "Hikka"
+  ],
+  "image": "",
+  "link": "https://www.amidhaayurveda.com/p/tulsi.html",
+  "preview": "Tulsi (Ocimum sanctum) is known as the Queen of Herbs in Ayurveda.",
+  "pacify": ["Kapha", "Vata"],
+  "aggravate": ["Pitta"],
+  "tridosha": false,
+  "rasa": ["Katu", "Tikta"],
+  "guna": ["Laghu", "Ruksha"],
+  "virya": "Ushna",
+  "vipaka": "Katu",
+  "prabhav": [
+    "Rasayana",
+    "Krimighna",
+    "Kasahara",
+    "Shoolaghna"
+  ]
 }
 ```
 
 ---
 
+## 🪷 Contribution Guidelines
+
+Please ensure:
+
+* Information is accurate and verifiable
+* Sanskrit terminology is standardized
+* Botanical names follow accepted nomenclature
+* Sources are properly cited
+* Duplicate entries are avoided
+* Changes follow the current schema
+
+Contributions that significantly alter the schema should be discussed in an issue before implementation.
+
+---
+
+## 📖 Citation
+
+If you use this dataset in your research, please cite the specific version used.
+
+### Current Version
+
+**Amidha Ayurveda Herb Database v2.0.0**
+
+DOI:
+https://doi.org/10.5281/zenodo.20581467
+
+### Concept DOI (All Versions)
+
+https://doi.org/10.5281/zenodo.17475351
+
+Citation formats are available on the Zenodo record.
+
+---
+
 ## 🤝 Code of Conduct
 
-This project follows the **Contributor Covenant Code of Conduct**. Please be respectful, inclusive, and open to discussion.
+This project follows the Contributor Covenant Code of Conduct.
+
+Please remain respectful, constructive, and collaborative in all interactions.
 
 ---
 
 ## 🌍 Vision
 
-> To build the world’s most comprehensive **open-source Ayurvedic herb database**, bridging traditional wisdom and modern science for researchers, clinicians, and AI developers alike.
+> To build a comprehensive open Ayurvedic data ecosystem that supports research, education, innovation, and digital preservation of traditional knowledge.
 
 ---
 
-### 💫 Join the Community
+## 💫 Get Involved
 
-* 🌐 Website: [Amidha Ayurveda](https://amidhaayurveda.com)
-* 🧵 GitHub Discussions: Use the Discussions tab for Q&A
-* ✉️ Contact: For bugs, please [open an Issue](https://github.com/sciencewithsaucee-sudo/herb-database/issues). For questions, please [start a Discussion](https://github.com/sciencewithsaucee-sudo/herb-database/discussions).
+🌐 Website:
+https://www.amidhaayurveda.com
+
+📖 Herb Database:
+https://www.amidhaayurveda.com/p/herb-database.html
+
+🐛 Issues:
+https://github.com/sciencewithsaucee-sudo/herb-database/issues
+
+💬 Discussions:
+https://github.com/sciencewithsaucee-sudo/herb-database/discussions
+
 ---
 
-**Together, let’s digitize Ayurveda for the future.** 🙌
+**Together, let's make Ayurvedic knowledge more accessible, structured, and reusable for future generations.** 🌿
