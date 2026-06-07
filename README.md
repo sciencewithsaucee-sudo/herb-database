@@ -218,7 +218,7 @@ Under the following terms:
 
 ### Citation
 
-> Varshney, S. (2026). Amidha Ayurveda Herb Database v2.0. Open-source dataset of Ayurvedic medicinal plants. Zenodo. DOI: 10.5281/zenodo.17475352
+> Varshney, S. (2026). Amidha Ayurveda Herb Database v2.0. Open-source dataset of Ayurvedic medicinal plants. Zenodo. DOI: 10.5281/zenodo.17475351
 
 Dataset Website:
 
@@ -248,7 +248,7 @@ You can help by:
 
 ## 🔗 DOI
 
-**DOI:** https://doi.org/10.5281/zenodo.17475352
+**DOI:** https://doi.org/10.5281/zenodo.17475351
 
 ---
 
