@@ -1,29 +1,42 @@
 cff-version: 1.2.0
 message: "If you use this dataset in your research, please cite it as below."
 type: dataset
-title: "Amidha Ayurveda – Open Herb Database (Beta)"
-version: "1.0.0"
-abstract: "An open-source Ayurvedic herb dataset for research, education, and innovation. The database contains structured data on 700+ herbs, including Ayurvedic and botanical names, Rasa-Guna-Virya-Vipaka-Prabhava, Dosha effects, and therapeutic properties. Designed for integration into research, AI, web, and educational projects, it serves as a bridge between traditional Ayurvedic wisdom and digital data science."
+
+title: "Amidha Ayurveda Herb Database"
+version: "2.0.0"
+
+abstract: "An open-source dataset of 360 curated Ayurvedic medicinal plants for research, education, and digital innovation. Version 2.0 introduces botanical classification, English names, Sanskrit synonyms, medicinal parts used, therapeutic indications, and standardized Ayurvedic pharmacological metadata. The dataset is designed for computational Ayurveda, AI applications, educational tools, and open scientific research."
+
 authors:
-  - given-names: "Sparsh"
-    family-names: "Varshney"
-    email: "sparsh@amidhaayurveda.com"
-    affiliation: "Amidha Ayurveda & Uttarakhand Ayurved University"
-    orcid: "https://orcid.org/0009-0004-7835-0673"
+
+* given-names: "Sparsh"
+  family-names: "Varshney"
+  email: "[sparsh@amidhaayurveda.com](mailto:sparsh@amidhaayurveda.com)"
+  affiliation: "Amidha Ayurveda & Uttarakhand Ayurved University"
+  orcid: "https://orcid.org/0009-0004-7835-0673"
+
 keywords:
-  - "Ayurveda"
-  - "Dravyaguna"
-  - "Medicinal Plants"
-  - "Open Data"
-  - "Dataset"
-  - "BAMS"
-  - "JSON"
-  - "Digital Ayurveda"
-  - "Traditional Medicine"
-  - "Herb Database"
+
+* "Ayurveda"
+* "Medicinal Plants"
+* "Dravyaguna"
+* "Ethnobotany"
+* "Open Data"
+* "Dataset"
+* "JSON"
+* "Digital Ayurveda"
+* "Computational Ayurveda"
+* "Traditional Medicine"
+* "Herb Database"
+
 license: "CC-BY-4.0"
+
 repository-code: "https://github.com/sciencewithsaucee-sudo/herb-database"
-url: "https://amidhaayurveda.com/p/herb-database.html"
+
+url: "https://www.amidhaayurveda.com/p/herb-database.html"
+
 doi: "10.5281/zenodo.17475352"
+
 publisher: "Zenodo"
-date-released: "2025-11-04"
+
+date-released: "2026-06-07"
