@@ -1,11 +1,9 @@
 cff-version: 1.2.0
 message: "If you use this dataset in your research, please cite it as below."
 type: dataset
-
 title: "Amidha Ayurveda Herb Database"
 version: "2.0.0"
-
-abstract: "An open-source dataset of 360 curated Ayurvedic medicinal plants for research, education, and digital innovation. Version 2.0 introduces botanical classification, English names, Sanskrit synonyms, medicinal parts used, therapeutic indications, and standardized Ayurvedic pharmacological metadata. The dataset is designed for computational Ayurveda, AI applications, educational tools, and open scientific research."
+abstract: "An open-source dataset of 360 curated Ayurvedic medicinal plants for research, education, and digital innovation. Version 2.0 introduces botanical classification, English names, Sanskrit synonyms, medicinal parts used, therapeutic indications, and standardized Ayurvedic pharmacological metadata. The dataset supports computational Ayurveda, AI applications, educational tools, and open scientific research."
 
 authors:
 
@@ -18,11 +16,12 @@ authors:
 keywords:
 
 * "Ayurveda"
-* "Medicinal Plants"
 * "Dravyaguna"
+* "Medicinal Plants"
 * "Ethnobotany"
 * "Open Data"
 * "Dataset"
+* "BAMS"
 * "JSON"
 * "Digital Ayurveda"
 * "Computational Ayurveda"
